@@ -7,9 +7,23 @@
   <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
   <img src="https://img.shields.io/badge/redis-%23DD0031.svg?&style=for-the-badge&logo=redis&logoColor=white" />
   <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white">
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" />
+# .env
+Не забудьте заполнить переменные окружения. 
+```
+TOKEN=""
+REDIS_NAME=""
+REDIS_PASSWORD=""
+REDIS_HOST=""
+REDIS_PORT=6379
 
+POSTGRES_NAME=""
+POSTGRES_USER=""
+POSTGRES_PASSWORD=123456789
+POSTGRES_HOST=""
+POSTGRES_PORT=5432
+PASSWORD_FOR_ADMIN=""
+
+```
 
 <div/>
