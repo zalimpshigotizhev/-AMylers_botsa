@@ -31,5 +31,5 @@ PASSWORD_FOR_ADMIN=""
 ```
 # Первый запуск
 
-1) Все переменные окружение должны быть заполнены. Движок докера должен быть активным. Интерпретатор Python 3.10. Для удобства используйте Make ([Как установить](https://stackoverflow.com/questions/32127524/how-to-install-and-use-make-in-windows)?). 
+1) Все переменные окружение должны быть заполнены. Движок докера должен быть активным. Интерпретатор Python 3.10. Для удобства используйте Make [Как установить?](https://stackoverflow.com/questions/32127524/how-to-install-and-use-make-in-windows). 
 2) 
