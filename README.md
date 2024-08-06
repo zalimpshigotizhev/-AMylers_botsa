@@ -2,7 +2,7 @@
 Этнический дейтинг-бот с возможностью авторизации. Можно отправлять симпатию в виде яблоко. При взаимной симпатии их странички высвечиваются друг другу, и лишь тогда появляется возможность общения.
 
 # Стек
-<img src="https://capsule-render.vercel.app/api?type=venom&height=200&color=gradient&text=selfProgressive&fontColor=082567&fontAlign=50&section=header&animation=fadeIn&stroke=FBCEB1"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&height=200&color=gradient&text=AMylers&fontColor=082567&fontAlign=50&section=header&animation=fadeIn&stroke=FBCEB1"/>
 <div>
   <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
   <img src="https://img.shields.io/badge/redis-%23DD0031.svg?&style=for-the-badge&logo=redis&logoColor=white" />
