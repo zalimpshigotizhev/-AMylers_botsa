@@ -8,6 +8,7 @@
   <img src="https://img.shields.io/badge/redis-%23DD0031.svg?&style=for-the-badge&logo=redis&logoColor=white" />
   <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white">
   <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" />
+<div/>
 
   
 # .env
@@ -28,5 +29,7 @@ POSTGRES_PORT=5432
 PASSWORD_FOR_ADMIN=""
 
 ```
+# Первый запуск
 
-<div/>
+1) Все переменные окружение должны быть заполнены. Движок докера должен быть активным. Интерпретатор Python 3.10. Для удобства используйте Make ([Как установить](https://stackoverflow.com/questions/32127524/how-to-install-and-use-make-in-windows)?). 
+2) 
