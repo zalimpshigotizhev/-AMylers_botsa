@@ -10,6 +10,7 @@
   <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" />
 # .env
 Не забудьте заполнить переменные окружения. 
+
 ```
 TOKEN=""
 REDIS_NAME=""
