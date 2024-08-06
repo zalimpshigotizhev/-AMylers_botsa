@@ -1,0 +1,55 @@
+version: '3.9'
+
+services:
+  bot:
+    build:
+      context: ..
+      dockerfile: Dockerfile
+    container_name: bot
+    ports:
+    - "8080:8080"
+    command: "sh /entrypoint.sh"
+    env_file:
+      - ../.env
+    volumes:
+      - ..:/app/
+    depends_on:
+      - postgres
+
+  redis:
+    container_name: "redis"
+    image: redis:alpine
+    command: redis-server /usr/local/etc/redis/redis.conf --requirepass mypassword
+    ports:
+      - "6379:6379"
+    volumes:
+    - ../redis.conf:/usr/local/etc/redis/redis.conf
+    - redis_data:/data
+
+  postgres:
+    image: postgres:latest
+    container_name: example-db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    env_file:
+      - ../.env
+
+  pgadmin4:
+    container_name: pgadmin4
+    image: dpage/pgadmin4
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: zalimon@zalim.com
+      PGADMIN_DEFAULT_PASSWORD: 552216742
+    ports:
+      - "5050:80"
+    
+    depends_on:
+      - postgres
+
+volumes:
+  postgres_data:
+  media_dir:
+  redis_data:
